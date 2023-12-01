@@ -166,11 +166,11 @@ main .container .left .profile{
     margin-top: 1rem;
     background: var(--color-white);
     border-radius: var(--card-border-radius);
-    max-height: 24rem;
+    /* max-height: 24rem;
     overflow-y: scroll;
     &::-webkit-scrollbar {
         width: 0px;
-      }
+      } */
 }
 
 .left .sidebar .menu-item {
