@@ -6,7 +6,8 @@
         <title>Thapar Social</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="ecom.css">
     </head>
     <body>
         <nav>
@@ -117,7 +118,7 @@
                             <span><i class="uil uil-bookmark"></i></span> <h3>Bookmarks</h3>
                         </a>
                         <a class="menu-item active">
-                            <span><i class="uil uil-shopping-cart-alt"></i></span> <h3>E-Commerce</h3>
+                            <span><i class="uil uil-shopping-cart-alt"></i></span> <h3>Market-Place</h3>
                         </a>
                         <a class="menu-item">
                             <span><i class="uil uil-palette"></i></span> <h3>Theme</h3>
@@ -133,480 +134,495 @@
 
                 <!-------------------------    MIDDLE  -------------------->
                 <div class="middle">
-                    <!------------------------------STORIES-------------------->
-                    <div class="stories">
-                        <div class="story">
-                            <div class="profile-photo">
-                                <img src="images\profile-1.jpg" >
+                    <div class="container-m">
+                        <div class="user-type">
+                            <div class="buyer">
+                                <div class="btn active"><h4>Buy Products</h4></div>
                             </div>
-                            <p class="name">Your Story</p>
-                        </div>
-                        <div class="story">
-                            <div class="profile-photo">
-                                <img src="images\profile-9.jpg" >
+                            <div class="seller" >
+                                <a href="./ecom-sell.html">
+                                <div class="btn"><h4>Sell Products</h4></div>
+                                </a>
                             </div>
-                            <p class="name">Lilla James</p>
-                        </div>
-                        <div class="story">
-                            <div class="profile-photo">
-                                <img src="images\profile-10.jpg" >
-                            </div>
-                            <p class="name">Winnie Hale</p>
-                        </div>
-                        <div class="story">
-                            <div class="profile-photo">
-                                <img src="images\profile-11.jpg" >
-                            </div>
-                            <p class="name">Daniel Bale</p>
-                        </div>
-                        <div class="story">
-                            <div class="profile-photo">
-                                <img src="images\profile-12.jpg" >
-                            </div>
-                            <p class="name">Jane Doe</p>
-                        </div>
-                        <div class="story">
-                            <div class="profile-photo">
-                                <img src="images\profile-8.jpg" >
-                            </div>
-                            <p class="name">Tina White</p>
                         </div>
                     </div>
-                    <!------------------------------END OF STORIES-------------------->
-                    <form class="create-post">
-                        <div class="profile-photo">
-                            <img src="images\profile-1.jpg" >
+                    <div class="body">
+                        <div class="text-muted">
+                            <h5>Explore and buy things you like!</h5>
                         </div>
-                        <input type="text" placeholder="What's on your mind, Diana? " id="create-post" style="border-width: 0px;">
-                        <input type="submit" value="Post" class="btn btn-primary">
-                    </form>
-
-                    <!------------------------------ FEEDS -------------------->
-                    <div class="feeds">
-                        <!-------------------------FEED 1 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-13.jpg" >
-                                    </div>
-                                    <div class="ingo">
-                                        <h3>Lana Rose</h3>
-                                        <small> Dubai, 15 MINUTES AGO</small>
-                                    </div>
-                                </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
-                            </div>
-                            <div class="photo">
-                                <img src="images/feed-1.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
-                                </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
-                                </div>
-                            </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-10.jpg"></span>
-                                <span><img src="./images/profile-4.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Ernest  Achiever</b> and <b> 2,323 others</b></p>
-                            </div>
-                            <div class="caption">
-                                <p> <b>Lana Rose</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag">#lifestyle</span></p>
-                            </div>
-                            <div class="comments text-muted"> View all 277 comments </div>
+                        <!---------- CATEGORY 1 ----------->
+                        <div class="cat-bar">
+                            watches
                         </div>
-                        <!-------------------------FEED 2 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-7.jpg" >
+                        <div class="item-panel">
+                            <!---------------- ITEM 1 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-1'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Titan Watch White Dial
                                     </div>
-                                    <div class="ingo">
-                                        <h3>Jack Reese</h3>
-                                        <small> Indonesia, 35 MINUTES AGO</small>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>4,000
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Vanshika Babbar
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
                                     </div>
                                 </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
                             </div>
-                            <div class="photo">
-                                <img src="images/feed-2.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
+                            <!---------------- ITEM 2 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-3.jpeg'>
                                 </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Mens Fossil Watch
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>3,180
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Arnav Bajwa
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9189765432
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-11.jpg"></span>
-                                <span><img src="./images/profile-7.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Miley Evans </b> and <b> 363 others</b></p>
+                            <!---------------- ITEM 3 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-6'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Kids Watch Black Analog
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>569
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Tanya Mehra
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="caption">
-                                <p> <b>Jack</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag">#life #wow</span></p>
+                            <!---------------- ITEM 4 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-2.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Women watch combo
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>2,100
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Anisa Khan
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9956575432
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="comments text-muted"> View all 7 comments </div>
+                            <!---------------- ITEM 5 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-1'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Titan Watch White Dial
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>4,000
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Vanshika Babbar
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---------------------- END ITEMS ---------------->
                         </div>
-                        <!-------------------------FEED 3 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-3.jpg" >
-                                    </div>
-                                    <div class="ingo">
-                                        <h3>Allena Mane</h3>
-                                        <small> 1 HOUR AGO</small>
-                                    </div>
-                                </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
-                            </div>
-                            <div class="photo">
-                                <img src="images/feed-3.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
-                                </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
-                                </div>
-                            </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-1.jpg"></span>
-                                <span><img src="./images/profile-2.jpg"></span>
-                                <span><img src="./images/profile-7.jpg"></span>
-                                <p> Liked by <b> You</b> and <b> 23,978 others</b></p>
-                            </div>
-                            <div class="caption">
-                                <p> <b>Allena Mane</b>  Lorem ipsum dolor sit quisquameius. </p>
-                            </div>
-                            <div class="comments text-muted"> View all 1327 comments </div>
+                        <!---------- CATEGORY 2 ----------->
+                        <div class="cat-bar">
+                            mens shoes
                         </div>
-                        <!-------------------------FEED 4 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-12.jpg" >
+                        <div class="item-panel">
+                            <!---------------- ITEM 1 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/mshoes-2.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Kros Casual Sneakers
                                     </div>
-                                    <div class="ingo">
-                                        <h3>Sofie Bennet</h3>
-                                        <small> 5 HOURS AGO</small>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>520
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Akhil Sachdeva
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9866537721
+                                    </div>
                                     </div>
                                 </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
                             </div>
-                            <div class="photo">
-                                <img src="images/feed-4.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
+                            <!---------------- ITEM 2 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/mshoes-1.jpeg'>
                                 </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Mesho Averatto Tan Shoes
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>3,570
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Arnav Bajwa
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9189765432
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-10.jpg"></span>
-                                <span><img src="./images/profile-4.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Josephine</b> and <b> 739 others</b></p>
-                            </div>
-                            <div class="caption">
-                                <p> <b>Sofie Bennet</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag">#besties</span></p>
-                            </div>
-                            <div class="comments text-muted"> View all 34 comments </div>
+                            <!---------------------- END ITEMS ---------------->
                         </div>
-                        <!-------------------------FEED 5 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-18.jpg" >
-                                    </div>
-                                    <div class="ingo">
-                                        <h3>Alex Brown</h3>
-                                        <small> Singapore, 7 HOURS AGO</small>
-                                    </div>
-                                </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
-                            </div>
-                            <div class="photo">
-                                <img src="images/feed-5.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
-                                </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
-                                </div>
-                            </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-11.jpg"></span>
-                                <span><img src="./images/profile-8.jpg"></span>
-                                <span><img src="./images/profile-9.jpg"></span>
-                                <p> Liked by <b> Ernest  Achiever</b> and <b> 323 others</b></p>
-                            </div>
-                            <div class="caption">
-                                <p> <b>Alex Brown</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag"></span></p>
-                            </div>
-                            <div class="comments text-muted"> View all 277 comments </div>
+                        <!---------- CATEGORY 3 ----------->
+                        <div class="cat-bar">
+                            womens footwear
                         </div>
-                        <!-------------------------FEED 6 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-10.jpg" >
+                        <div class="item-panel">
+                            <!---------------- ITEM 1 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fshoes-1.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Black Stilletoes Heels
                                     </div>
-                                    <div class="ingo">
-                                        <h3>Natalie Yearman</h3>
-                                        <small> Office, 1 DAY AGO</small>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>2,200
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Anshika Gupta
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9769875432
+                                    </div>
                                     </div>
                                 </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
                             </div>
-                            <div class="photo">
-                                <img src="images/feed-6.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
+                            <!---------------- ITEM 2 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fshoes-2.jpeg'>
                                 </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Traditional Sandals
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>670
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Dhriti Jain
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9189765432
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-10.jpg"></span>
-                                <span><img src="./images/profile-4.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Peppie Yearman</b> and <b> 1923 others</b></p>
+                            <!---------------- ITEM 3 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fshoes-4.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Silver-Gold Slip Ons
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>300
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Tanya Mehra
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="caption">
-                                <p> <b>Natalie Yearman</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag"></span></p>
+                            <!---------------- ITEM 4 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fshoes-5.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Brown Zonuk Bellies
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>1,300
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Anisa Khan
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9956575432
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="comments text-muted"> View all 317 comments </div>
+                            <!---------------- ITEM 5 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fshoes-6.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Black Office Sandals
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>2,700
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Vanshika Babbar
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---------------------- END ITEMS ---------------->
                         </div>
-                        <!-------------------------FEED 7 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-2.jpg" >
-                                    </div>
-                                    <div class="ingo">
-                                        <h3>Alice Stone</h3>
-                                        <small>2 DAYS AGO</small>
-                                    </div>
-                                </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
-                            </div>
-                            <div class="photo">
-                                <img src="images/feed-7.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
-                                </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
-                                </div>
-                            </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-10.jpg"></span>
-                                <span><img src="./images/profile-4.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Helen Boren</b> and <b> 223 others</b></p>
-                            </div>
-                            <div class="caption">
-                                <p> <b>Alice Stone</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag">#thinker</span></p>
-                            </div>
-                            <div class="comments text-muted"> View all 87 comments </div>
+                        <!---------- CATEGORY 4 ----------->
+                        <div class="cat-bar">
+                            womens clothing
                         </div>
-                        <!-------------------------FEED 8 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-12.jpg" >
+                        <div class="item-panel">
+                            <!---------------- ITEM 1 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fclothing-1.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Pink 3-Piece Suit Set
                                     </div>
-                                    <div class="ingo">
-                                        <h3>Alicia Worrel</h3>
-                                        <small>2 DAYS AGO</small>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>6,000
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                       Allana Bajwa
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
                                     </div>
                                 </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
                             </div>
-                            <div class="photo">
-                                <img src="images/feed-3.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
+                            <!---------------- ITEM 2 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fclothing-3.jpeg'>
                                 </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Tiger Print Jump Suit
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>1,880
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Ananya Sharma
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9763459432
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-10.jpg"></span>
-                                <span><img src="./images/profile-4.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Helena Swan</b> and <b> 223 others</b></p>
+                            <!---------------- ITEM 3 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fclothing-4.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Green Polka Dot Dress
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>569
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Tanisha Ahluwalia
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9543391234
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="caption">
-                                <p> <b>Alicia Worrel</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag">#thinker</span></p>
+                            <!---------------- ITEM 4 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fclothing-5.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Black-Yellow Suit
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>2,100
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Anisa Khan
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9956575432
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="comments text-muted"> View all 87 comments </div>
+                            <!---------------- ITEM 5 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fclothing-6.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        White Sweater Oversized
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>4,000
+                                        </div>
+                                    </div>
+                                    <div class="row3">
+                                    <div class="name">
+                                        Vanshika Babbar
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---------------------- END ITEMS ---------------->
                         </div>
-                        <!-------------------------FEED 9 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="./images/profile-10.jpg" >
-                                    </div>
-                                    <div class="ingo">
-                                        <h3>Helena Swan</h3>
-                                        <small>Home, 2 DAYS AGO</small>
-                                    </div>
-                                </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
-                            </div>
-                            <div class="photo">
-                                <img src="images/feed-4.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
-                                </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
-                                </div>
-                            </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-10.jpg"></span>
-                                <span><img src="./images/profile-4.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Helen Boren</b> and <b> 223 others</b></p>
-                            </div>
-                            <div class="caption">
-                                <p> <b>Helena Swan</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag">#besties</span></p>
-                            </div>
-                            <div class="comments text-muted"> View all 87 comments </div>
-                        </div>
-                        <!-------------------------FEED 10 --------------------->
-                        <div class="feed">
-                            <div class="head">
-                                <div class="user">
-                                    <div class="profile-photo">
-                                        <img src="images\profile-2.jpg" >
-                                    </div>
-                                    <div class="ingo">
-                                        <h3>Alice Stone</h3>
-                                        <small>London, 2 DAYS AGO</small>
-                                    </div>
-                                </div>
-                                <span class="edit">
-                                    <i class="uil uil-ellipsis-h"></i>
-                                </span>
-                            </div>
-                            <div class="photo">
-                                <img src="images/feed-5.jpg" >
-                            </div>
-
-                            <div class="action-buttons">
-                                <div class="interaction-buttons">
-                                    <span><i class="uil uil-heart"></i></span>
-                                    <span><i class="uil uil-comment-dots"></i></span>
-                                    <span><i class="uil uil-share-alt"></i></span>
-                                </div>
-                                <div class="bookmark">
-                                    <span><i class="uil uil-bookmark-full"></i></span>
-                                </div>
-                            </div>
-
-                            <div class="liked-by">
-                                <span><img src="./images/profile-10.jpg"></span>
-                                <span><img src="./images/profile-4.jpg"></span>
-                                <span><img src="./images/profile-15.jpg"></span>
-                                <p> Liked by <b> Helen Boren</b> and <b> 223 others</b></p>
-                            </div>
-                            <div class="caption">
-                                <p> <b>Alice Stone</b>  Lorem ipsum dolor sit quisquameius. <span class="harsh-tag">#thinker</span></p>
-                            </div>
-                            <div class="comments text-muted"> View all 87 comments </div>
-                        </div>
-                        <!-----------------------------END FEED ------------------------->
                     </div>
                 </div>
-                <!-------------------------    RIGHT  -------------------->
+                <!------------------------    RIGHT  -------------------->
                 <div class="right">
                     <div class="messages">
                         <div class="heading">
