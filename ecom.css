@@ -219,6 +219,98 @@ img{
     padding: 0.2rem;
 }
 
+ form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.r1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 2rem;
+    position: relative;
+}
+
+.r1 input{
+    width: 50%;
+    height: 2rem;
+    border: 0.18rem solid;
+    border-color: var(--color-primary);
+    border-radius: 14px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: var(--color-light);
+    position: relative;
+}
+.r2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 2rem;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.r2 input{
+    width: 50%;
+    height: 2rem;
+    border: 0.18rem solid;
+    border-color: var(--color-primary);
+    border-radius: 14px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: var(--color-light);
+    position: relative;
+}
+
+.r1 input:hover{
+    background: var(--color-secondary);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.r2 input:hover{
+    background: var(--color-secondary);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    padding: var(--btn-padding);
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+    border-width: 0px;
+    width: 70%;
+    margin : auto;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    color: var(--color-light);
+    background: var(--color-primary);
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 1200px){
     .middle .body .item-panel{
         display: flex;
@@ -271,6 +363,16 @@ img{
         }
         white-space: nowrap;
     }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 300px;
+        margin: 0 auto;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 450px){
@@ -288,5 +390,15 @@ img{
             width: 1px;
         }
         white-space: nowrap;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 200px;
+        margin: 0 auto;
+        align-content: center;
+        text-align: center;
+        align-items: center;
     }
 }

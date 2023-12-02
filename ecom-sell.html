@@ -149,6 +149,134 @@
                         <div class="text-muted">
                             <h5>What would you like to sell Today?</h5>
                         </div>
+                        <form id="sellForm">
+
+                            <div class="r1">
+                            
+                            <input type="text" id="itemName" name="itemName" required placeholder="Item Name" >
+                            <input type="number" id="mrp" name="mrp" required placeholder="Price">
+                            </div>
+                            
+                            <div class="r2">
+                            <input type="text" id="name" name="name" required placeholder="Name">
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Ph. Number">
+                            </div>
+                            <label for="image">Upload Image:</label>
+                            <br>
+                            <input type="file" id="image" name="image" accept="image/*">
+                
+                            <button type="submit" onclick="listItem()" for="create-post">List Item</button>
+                        </form>
+                        <div class="cat-bar">
+                            items listed by you
+                        </div>
+                        <div class="item-panel">
+                            <!---------------- ITEM 1 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-1'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Titan Watch White Dial
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>4,000
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Vanshika Babbar
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------- ITEM 2 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fclothing-6.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        White Oversized Sweater
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>1,220
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Arnav Bajwa
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9189765432
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------- ITEM 3 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fshoes-4.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Silver-Golden Slipons
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>569
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Tanya Mehra
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------- ITEM 4 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-2.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Women watch combo
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>2,100
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Anisa Khan
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9956575432
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------------- END ITEMS ---------------->
+                        </div>
                     </div>
                 </div>
                 <!-------------------------    RIGHT  -------------------->
